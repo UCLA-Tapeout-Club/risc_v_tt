@@ -7,7 +7,7 @@ module top(
 );
 
 logic [1:0] pc_out;
-pc_module program_counter (
+pc program_counter (
     .clk(clk),
     .rst_n(rst_n),
     .pc_out(pc_out)

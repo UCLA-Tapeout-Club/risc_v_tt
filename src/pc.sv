@@ -1,4 +1,4 @@
-module pc_module #(
+module pc #(
     parameter IMEM_SIZE = 4
 )(
     input logic clk,
